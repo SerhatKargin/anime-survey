@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Anime Survey</title>
+  </head>
+
+  <body>
+    <h1 id="title">Anime Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the anime industry!</p>
+
+    <form id="survey-form">
+
+      <div class="form-group">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="number" id="number-label">Age</label>
+        <input type="number" id="number" name="number" min="18" max="120" placeholder="Age" />
+      </div>
+
+      <div class="form-group">
+        <label for="dropdown">How would you describe your taste in anime?</label>
+        <select id="dropdown">
+          <option disabled selected>Select an option</option>
+          <option>Always looking for action</option>
+          <option>Wants peace and quiet</option>
+          <option>Peak fiction enthusiast</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>Which of these have you watched?</p>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="attack_on_titan" /> Attack on Titan</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="death_note" /> Death Note</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="dragon_ball" /> Dragon Ball</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="one_piece" /> One Piece</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="naruto" /> Naruto</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="bleach" /> Bleach</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="jojo" /> JoJo's Bizarre Adventure</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="fullmetal_alchemist" /> Fullmetal Alchemist</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="gintama" /> Gintama</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="one_punch_man" /> One Punch Man</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="demon_slayer" /> Demon Slayer</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="jujutsu_kaisen" /> Jujutsu Kaisen</label>
+        <label class="checkbox-row"><input type="checkbox" name="anime" value="chainsaw_man" /> Chainsaw Man</label>
+      </div>
+
+      <div class="form-group">
+        <p>Would you recommend our survey to your friends?</p>
+        <label class="radio-row"><input type="radio" name="answer" value="yes" checked /> Yes</label>
+        <label class="radio-row"><input type="radio" name="answer" value="no" /> No</label>
+        <label class="radio-row"><input type="radio" name="answer" value="maybe" /> Maybe</label>
+      </div>
+
+      <div class="form-group">
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea id="comments" name="comments_and_suggestions" placeholder="Enter your comment here..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+
+    </form>
+
+  </body>
+
+</html>
