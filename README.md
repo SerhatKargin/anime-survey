@@ -6,7 +6,6 @@ Specifically, it completes the **Survey Form** project — the first project in 
 
 ## 🌐 Live Demo
 [Click here to view the live site](https://SerhatKargin.github.io/anime-survey/)  
-_(Replace with your actual GitHub Pages link)_
 
 ## 🎯 Project Goals
 
