@@ -11,7 +11,6 @@ body {
 
 h1[id="title"], p[id="description"]  {
   text-align: center;
-  margin: 5px;
 }
 
 html {
@@ -84,4 +83,9 @@ button {
 button:hover {
   background-color: #0056b3;
   cursor: pointer;
+}
+
+form, h1, p[id="description"] {
+  margin: 5px;
+  padding: 5px;
 }
