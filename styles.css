@@ -9,7 +9,7 @@ body {
   background-color: lightblue;
 }
 
-title, description {
+h1[id="title"], p[id="description"]  {
   text-align: center;
 }
 
