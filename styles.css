@@ -14,7 +14,7 @@ h1[id="title"], p[id="description"]  {
 }
 
 html {
-  height: 90%;
+  height: fit;
   margin: 0;
   padding: 0;
 }
