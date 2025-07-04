@@ -11,6 +11,7 @@ body {
 
 h1[id="title"], p[id="description"]  {
   text-align: center;
+  margin: 20px;
 }
 
 html {
