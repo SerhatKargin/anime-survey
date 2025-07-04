@@ -87,3 +87,7 @@ button:hover {
   background-color: #0056b3;
   cursor: pointer;
 }
+
+form::-webkit-scrollbar {
+  display: none;
+}
