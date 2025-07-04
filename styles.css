@@ -1,7 +1,10 @@
 body {
   background-color: #D3E6FF;
   text-align: center;
-  background-image: url()
+  background-image: url("images/background_image.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 form {
   max-width: 600px;
