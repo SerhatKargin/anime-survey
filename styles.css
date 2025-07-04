@@ -8,6 +8,10 @@ body {
   min-height: 100vh;
 }
 
+title, description {
+  text-align: center;
+}
+
 html {
   height: 100%;
   margin: 0;
