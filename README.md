@@ -29,7 +29,6 @@ This project is fully responsive. It adjusts to different screen sizes to ensure
 
 - index.html
 - styles.css
-- images/
 
 ## ✅ Certificate Info
 
